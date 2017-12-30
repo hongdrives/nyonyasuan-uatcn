@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Nyonya Suan Restaurant (CN)",
-    "currentPage": "page8.html",
+    "currentPage": "page6.html",
     "theme": {
       "name": "restaurantm4",
       "title": "RestaurantM4",
@@ -597,7 +597,7 @@
             }
           },
           "_name": "features6",
-          "_customHTML": "<section class=\"features6\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Media\" name=\"showMedia\" checked>\n        <input type=\"checkbox\" title=\"Square\" name=\"showSquare\" condition=\"showMedia\">\n        <input type=\"color\" title=\"Square Color\" name=\"squareColor\" value=\"#e2f7df\" condition=\"showMedia && showSquare\">\n        <input type=\"checkbox\" title=\"Show Vertical Text\" name=\"showVerticalText\">\n        <input type=\"checkbox\" title=\"Media on Right/Left\" name=\"reverseContent\" condition=\"showMedia\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"@PROJECT_PATH@/assets/images/32-nyonya-suanhistory-1280x800.jpg\" title=\"Background Image\" selected parallax>\n            <input type=\"color\" value=\"#85bfd0\" title=\"Background Color\">\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=pjiVuLVqWQg\" title=\"Background Video\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"box\" mbr-if=\"showMedia && showSquare\"></div>\n            <div class=\"col-sm-12 text-block\" mbr-class=\"{'col-md-10': !showMedia,\n                             'col-md-6': showMedia}\">\n                <div class=\"mbr-white text-box mbr-fonts-style align-center mbr-bold\" mbr-text mbr-theme-style=\"display-4\" mbr-if=\"showVerticalText\" data-app-selector=\".text-box\">\n                     MEET OUR CHEF\n                </div>\n                <h3 class=\"mbr-white mbr-section-title mbr-fonts-style\" mbr-class=\"{'align-right': reverseContent,\n                                'align-left': !reverseContent}\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>温著娘惹餐馆的厉史</b></h3>\n                <div mbr-text class=\"mbr-white mbr-section-text mbr-fonts-style\" mbr-class=\"{'align-right': reverseContent,\n                                 'align-left': !reverseContent}\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text\"><br>坐落于历史古城马六甲的温馨娘惹创 立于公元，998年。创立至今已有18年之久 ，可说是马来西亚举足轻重娘惹餐馆之一。 \n<br><br><div>于2013年8月正式搬迁至马六甲世界文化遗产区域内我们依然秉持着对食品安 全负责，不使用防腐剂及人造色素。用此精 神来推广最正宗，优质服务的娘惹料理。 \n</div><div><br></div><div>娘惹料理的最大特色是融合了土著料理和中国菜式。娘惹料理之所以特别是因为它的复杂香料但又能完美地相互融合。是东南亚最独具特色的料理之一。 \n</div><div><br></div></div>\n            </div>\n            <div class=\"col-sm-12 col-md-6 img-block align-center\" mbr-if=\"showMedia\">\n                <div class=\"mbr-figure\">\n                    <img src=\"@PROJECT_PATH@/assets/images/32-nyonya-suanhistory-1147x582.jpg\" alt=\"Mobirise\" title>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"features6\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Media\" name=\"showMedia\" checked>\n        <input type=\"checkbox\" title=\"Square\" name=\"showSquare\" condition=\"showMedia\">\n        <input type=\"color\" title=\"Square Color\" name=\"squareColor\" value=\"#e2f7df\" condition=\"showMedia && showSquare\">\n        <input type=\"checkbox\" title=\"Show Vertical Text\" name=\"showVerticalText\">\n        <input type=\"checkbox\" title=\"Media on Right/Left\" name=\"reverseContent\" condition=\"showMedia\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"@PROJECT_PATH@/assets/images/32-nyonya-suanhistory-1280x800.jpg\" title=\"Background Image\" selected parallax>\n            <input type=\"color\" value=\"#85bfd0\" title=\"Background Color\">\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=pjiVuLVqWQg\" title=\"Background Video\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"box\" mbr-if=\"showMedia && showSquare\"></div>\n            <div class=\"col-sm-12 text-block\" mbr-class=\"{'col-md-10': !showMedia,\n                             'col-md-6': showMedia}\">\n                <div class=\"mbr-white text-box mbr-fonts-style align-center mbr-bold\" mbr-text mbr-theme-style=\"display-4\" mbr-if=\"showVerticalText\" data-app-selector=\".text-box\">\n                     MEET OUR CHEF\n                </div>\n                <h3 class=\"mbr-white mbr-section-title mbr-fonts-style\" mbr-class=\"{'align-right': reverseContent,\n                                'align-left': !reverseContent}\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>温著娘惹餐馆的厉史</b></h3>\n                <div mbr-text class=\"mbr-white mbr-section-text mbr-fonts-style\" mbr-class=\"{'align-right': reverseContent,\n                                 'align-left': !reverseContent}\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text\"><br>坐落于历史古城马六甲的温馨娘惹创 立于公元1998年。创立至今已有20余年之久 ，可说是马来西亚举足轻重娘惹餐馆之一。 \n<br><br><div>于2013年8月正式搬迁至马六甲世界文化遗产区域内我们依然秉持着对食品安 全负责，不使用防腐剂及人造色素。用此精 神来推广最正宗，优质服务的娘惹料理。 \n</div><div><br></div><div>娘惹料理的最大特色是融合了土著料理和中国菜式。娘惹料理之所以特别是因为它的复杂香料但又能完美地相互融合。是东南亚最独具特色的料理之一。 \n</div><div><br></div></div>\n            </div>\n            <div class=\"col-sm-12 col-md-6 img-block align-center\" mbr-if=\"showMedia\">\n                <div class=\"mbr-figure\">\n                    <img src=\"@PROJECT_PATH@/assets/images/32-nyonya-suanhistory-1147x582.jpg\" alt=\"Mobirise\" title>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qBUSCNgqKR",
           "_anchor": "features6-3b",
           "_protectedParams": [],
@@ -864,7 +864,7 @@
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Awesome",
@@ -889,6 +889,18 @@
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
                 "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/newpicadd-20171230-cn-843x596.png",
+                "thumb": "@PROJECT_PATH@/assets/images/newpicadd-20171230-cn-843x596-800x565.png",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": true
               }
             ]
           }
@@ -1482,7 +1494,7 @@
             }
           },
           "_name": "gallery2",
-          "_customHTML": "<section class=\"gallery2 mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" inline>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Overlay Color 1\" name=\"overlayColor1\" value=\"#ffffff\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#f9e2af\" condition=\"gradientOverlay\">\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#232323\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/img-8531-1999x1333.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"row justify-content-center\" mbr-if=\"showTitle\">\n            <div mbr-class=\"{'col-sm-12': !fullWidth,\n                             'col-sm-10': fullWidth}\">\n                <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\"><b>娘惹佳肴 · 色香味具</b></h2>\n            </div>            \n        </div>\n        <div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-filter mbr-gallery-show-text></div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"gallery2 mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" inline>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Overlay Color 1\" name=\"overlayColor1\" value=\"#ffffff\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#f9e2af\" condition=\"gradientOverlay\">\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#232323\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/img-8531-1999x1333.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"row justify-content-center\" mbr-if=\"showTitle\">\n            <div mbr-class=\"{'col-sm-12': !fullWidth,\n                             'col-sm-10': fullWidth}\">\n                <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\"><b>娘惹佳肴 · 色香味具</b></h2>\n            </div>            \n        </div>\n        <div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-filter></div>\n    </div>\n</section>",
           "_cid": "qBVboQfYCU",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
@@ -1496,12 +1508,12 @@
           "_global": false,
           "_once": false,
           "_params": {
-            "text_all": "All",
+            "text_all": "全部",
             "gallery__filtersTextStyle": "display-4",
             "gallery__filtersBtnStyle": "btn-primary-outline",
             "gallery": [
               {
-                "tags": "Seafood",
+                "tags": "海鲜",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1513,7 +1525,7 @@
                 "active": false
               },
               {
-                "tags": "Others",
+                "tags": "鸡肉",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1525,7 +1537,7 @@
                 "active": false
               },
               {
-                "tags": "Seafood",
+                "tags": "海鲜",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1537,7 +1549,7 @@
                 "active": false
               },
               {
-                "tags": "Chicken",
+                "tags": "鸡肉",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1549,7 +1561,7 @@
                 "active": false
               },
               {
-                "tags": "Seafood",
+                "tags": "海鲜",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1561,7 +1573,7 @@
                 "active": false
               },
               {
-                "tags": "Chicken",
+                "tags": "鸡肉",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1573,7 +1585,7 @@
                 "active": false
               },
               {
-                "tags": "Others",
+                "tags": "其它",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1585,7 +1597,7 @@
                 "active": false
               },
               {
-                "tags": "Seafood",
+                "tags": "海鲜",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1597,7 +1609,7 @@
                 "active": false
               },
               {
-                "tags": "Seafood",
+                "tags": "海鲜",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1609,7 +1621,7 @@
                 "active": false
               },
               {
-                "tags": "Others",
+                "tags": "其它",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
