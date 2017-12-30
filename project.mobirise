@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Nyonya Suan Restaurant (CN)",
-    "currentPage": "inde.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "restaurantm4",
       "title": "RestaurantM4",
@@ -2780,7 +2780,7 @@
         }
       ]
     },
-    "inde.html": {
+    "index.html": {
       "settings": {
         "main": true,
         "title": "首页",
